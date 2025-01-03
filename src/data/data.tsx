@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Arturo Isidro H.',
+  description: "Porfolio and resume site for Arturo Isidro H. - Full Stack Software Engineer",
 };
 
 /**
@@ -69,24 +69,26 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Arturo Isidro.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Vancouver based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently open to
+        new opportunities.  <strong className="text-stone-100">Cloud Native Developer</strong> with experience in Banking sectors. 
+        Most of the time working in Backend Development, but also have experience in Frontend Development.
+        AWS Certified and Kafka Certified.
+      
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my Spare time, you can catch me training in <strong className="text-stone-100">Soccer teams, Volleyball teams</strong>,
+       or exploring beautiful{' '}
+        <strong className="text-stone-100">British Columbia</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/assets/resume.docx',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -104,16 +106,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Adaptable and efficient professional with strong individual initiative and enthusiasm. Known for responsibility and a great desire to improve, making me a capable and reliable team member.
+  Curious and eager to learn, I am always looking for new challenges and opportunities to grow. I am a team player who is able to work in a fast-paced environment, and I am always looking for ways to improve my skills and knowledge.
+  `,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
+    {label: 'Nationality', text: 'Spanish / Peruvian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Soccer, Volleyball, Fitness', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Zaragoza, Cefor Izquierdo', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Accenture Iberia Spain.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -126,16 +127,19 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 8,
       },
       {
         name: 'French',
-        level: 4,
+        level: 2,
       },
       {
         name: 'Spanish',
-        level: 3,
-      },
+        level: 10,
+      },{
+        name: 'Italian',
+        level: 4,
+      }
     ],
   },
   {
@@ -340,23 +344,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'arturoisidroh@gmail.com',
+      href: 'mailto:arturoisidroh@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Vancouver BC, Canada',
+      href: 'https://www.google.ca/maps/place/Vancouver,+Columbia+Brit%C3%A1nica/@49.2578182,-123.2063047,12z/data=!3m1!4b1!4m6!3m5!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375!16zL20vMDgwaDI?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@aisidroh',
+      href: 'https://www.instagram.com/aisidroh/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'aisidr12',
+      href: 'https://github.com/aisidr12',
     },
   ],
 };
@@ -365,9 +369,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/aisidr12'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arturoisidroh/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/aisidroh/'},
 ];

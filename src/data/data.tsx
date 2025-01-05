@@ -12,6 +12,15 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -60,18 +69,16 @@ export const heroData: Hero = {
   name: `I'm Arturo Isidro.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Vancouver based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently open to
-        new opportunities.  <strong className="text-stone-100">Cloud Native Developer</strong> with experience in Banking sectors. 
-        Most of the time working in Backend Development, but also have experience in Frontend Development.
-        AWS Certified and Kafka Certified.
-      
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my Spare time, you can catch me training in <strong className="text-stone-100">Soccer teams, Volleyball teams</strong>,
-       or exploring beautiful{' '}
-        <strong className="text-stone-100">British Columbia</strong>.
-      </p>
+<p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+  I’m a <strong className="text-stone-100">Vancouver-based Full Stack Software Engineer</strong>, passionate about building scalable and innovative solutions. 
+  With extensive experience as a <strong className="text-stone-100">Cloud-Native Developer</strong> in the Banking sector, 
+  I specialize in <strong className="text-stone-100">Backend Development</strong> while maintaining proficiency in <strong className="text-stone-100">Frontend Development</strong>.
+  My certifications in AWS and Kafka reflect a commitment to staying at the forefront of technology and delivering excellence in every project.
+</p>
+<p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+  Outside of work, I thrive on teamwork and adventure. You’ll often find me training with <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball teams </strong> 
+  or exploring the stunning landscapes of <strong className="text-stone-100">British Columbia</strong>, fueled by curiosity and a love for new challenges.
+</p>
     </>
   ),
   actions: [
@@ -94,9 +101,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Adaptable and efficient professional with strong individual initiative and enthusiasm. Known for responsibility and a great desire to improve, making me a capable and reliable team member.
-  Curious and eager to learn, I am always looking for new challenges and opportunities to grow. I am a team player who is able to work in a fast-paced environment, and I am always looking for ways to improve my skills and knowledge.
-  `,
+  description: `Adaptable and efficient professional with a proactive mindset and genuine enthusiasm for growth. Recognized for my strong sense of responsibility, initiative, and commitment to continuous improvement, I am a reliable and capable team member. Naturally curious and eager to learn, I thrive on new challenges and opportunities to enhance my skills. 
+  As a collaborative team player, I excel in fast-paced environments, always seeking innovative ways to expand my knowledge and contribute to collective success.`,
   aboutItems: [
     {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
     {label: 'Nationality', text: 'Spanish / Peruvian', Icon: FlagIcon},
@@ -114,6 +120,10 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
+        name: 'Spanish',
+        level: 10,
+      },
+      {
         name: 'English',
         level: 8,
       },
@@ -122,9 +132,6 @@ export const skills: SkillGroup[] = [
         level: 2,
       },
       {
-        name: 'Spanish',
-        level: 10,
-      },{
         name: 'Italian',
         level: 4,
       }
@@ -156,11 +163,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Java',
-        level: 8,
+        level: 9,
       },
       {
         name: 'Spring Boot',
-        level: 7,
+        level: 8,
       },
       {
         name: 'Spring Data',
@@ -170,7 +177,7 @@ export const skills: SkillGroup[] = [
         level: 5
       },
       {
-        name: 'AWS',
+        name: 'AWS Services',
         level: 7,
       },
       {
@@ -198,17 +205,73 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  
   {
-    title: 'Simple Counter',
-    description: 'Counter JavaScript.',
-    url: 'https://reactresume.com',
+    title: 'Gif App',
+    description: 'Application where you can find Gif images with React.',
+    url: 'https://gif-app-react-nu.vercel.app/',
+    image: porfolioImage3,
+  },
+  {
+    title: 'S3 Bucket App with Spring boot',
+    description: 'Application where you can upload files to S3 bucket using Spring boot via API.',
+    url: 'https://github.com/aisidr12/S3bucketApp',
     image: porfolioImage1,
   },
   {
-    title: 'Pokemon API Gift',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Simple Counter',
+    description: 'Counter JavaScript.',
+    url: 'https://github.com/aisidr12/counterApp',
     image: porfolioImage2,
+  } 
+  ,
+  {
+    title: 'Heroes App',
+    description: 'Small application where you can find your own hero in Gif in Angular.',
+    url: 'https://github.com/aisidr12/heroesApp',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Rock Paper Scissors API',
+    description: 'Rock Paper Scissors API in Java - Spring boot',
+    url: 'https://github.com/aisidr12/RockPaperScissors/tree/master',
+    image: porfolioImage5,
+  },
+  {
+    title: 'Demo Bank Operations',
+    description: 'Demo Bank Operations in Java - Spring boot',
+    url: 'https://github.com/aisidr12/DemoBank',
+    image: porfolioImage6,
+  },
+  {
+    title: 'Demo Bank Operations',
+    description: 'Demo Bank Operations in Java - Spring boot using AWS Lambda to calculate the interest of a loan.',
+    url: 'https://github.com/aisidr12/BankLambda',
+    image: porfolioImage7,
+  },
+  {
+    title: 'Demo SQS',
+    description: 'Demo SQS in Java - Spring boot using AWS SQS to send messages.',
+    url: 'https://github.com/aisidr12/demoSqs/tree/master/demo-SQS', 
+    image: porfolioImage8,
+  },
+  {
+    title: 'Spring Security 2024', 
+    description: 'Spring Security 2024 in Java - Spring boot using Spring Security to secure the application.',
+    url: 'https://github.com/aisidr12/practiceSecuritySpringBoot',
+    image: porfolioImage9,
+  },
+  {
+    title: 'Crud Operations with DynamoDb', 
+    description: 'Crud Operations with DynamoDb in Java - Spring boot using DynamoDb to store data.',
+    url: 'https://github.com/aisidr12/DynamoDb  ',
+    image: porfolioImage10,
+  },
+  {
+    title:'Async Operations in Java',
+    description: 'Async Operations in Java - Spring boot using CompletableFuture to make async operations.',
+    url: 'https://github.com/aisidr12/AsyncProgramExample',
+    image: porfolioImage11,
   }
 ];
 
@@ -238,12 +301,9 @@ export const experience: TimelineItem[] = [
     nameCompany: 'Accenture Spain',
     content: (
       <p>
-        Engaged in the development of new features for our banking client, adhering to clean code principles and other best practices. 
-        As a developer, I participated in architectural design, enhancing the latency of our microservices and optimizing interactions with other microservices.
-        Technologies utilized included Java 11, Java 17, and Java 21, Maven, Git, OpenAPI, Swagger, Bamboo, SonarQube, Mockito, JUnit, Docker, and Kubernetes.
-        Additionally, we leveraged AWS services such as DynamoDB, AWS CloudWatch, S3, SNS, and Aurora DB. Our deployment tools included Bamboo and Harness.
-        Since this is a banking project, we adhered to strict security standards and best practices.
-        This project followed the Agile methodology.
+       Contributed to the development of new features for a banking client, adhering to clean code principles and industry best practices. Played an active role in architectural design, focusing on enhancing microservice latency and optimizing interactions between services. 
+       Leveraged a wide range of technologies, including Java (versions 11, 17, and 21), Maven, Git, OpenAPI, Swagger, Mockito, JUnit, Docker, and Kubernetes. Utilized AWS services such as DynamoDB, CloudWatch, S3, SNS, and Aurora DB to ensure scalable and reliable solutions. Deployment processes were streamlined using Bamboo and Harness, while code quality and security were upheld with tools like SonarQube.
+       Given the banking domain, adhered to strict security standards and compliance requirements. The project was executed following Agile methodologies, fostering collaboration and iterative development to meet evolving business needs
       </p>
     ),
   },
@@ -254,10 +314,8 @@ export const experience: TimelineItem[] = [
     nameCompany: 'Bilbomatica Spain',
     content: (
       <p>
-        Project base on Public Administration. We mainly maintance the project and bug fixing for the client.
-        We developed some new features for the client and some improvements in the project like refactoring some integrations with third party services.
-        Technologies used: Java 8, Spring boot, Jenkins, Maven, Sonarqube, PL/SQL, RestApi, Swagger.
-        This project was base on Waterfall methodology.
+        Focused on a Public Administration project, primarily handling maintenance and bug fixes to ensure smooth client operations. Contributed to the development of new features and implemented enhancements, including refactoring integrations with third-party services to improve efficiency and reliability.
+        Technologies utilized included Java 8, Spring Boot, Jenkins, Maven, SonarQube, PL/SQL, REST APIs, and Swagger. The project followed a Waterfall methodology, with a structured approach to planning and execution.
       </p>
     ),
   },
@@ -268,11 +326,10 @@ export const experience: TimelineItem[] = [
     nameCompany: 'Hiberus Technology',
     content: (
       <p>
-        Maintance of projects and bug fixing. Migration of projects from Monolithics to Microservices architecture. 
-        Our team could migrate a project from Monolithic to Microservices in 3 months with a team of 5 people. This project was
-        part of Public Administration. This project was base on Agile methodology.
-        Fullstack technologies used: Java 7, Java 8, Spring, Spring boot, Angular, Jenkins, Kafka, Maven, Sonarqube, Docker, Kubernetes and Subversion.
-      </p>
+       Focused on a Public Administration project, primarily handling maintenance and bug fixes to ensure smooth client operations.
+       Contributed to the development of new features and implemented enhancements, including refactoring integrations with third-party services to improve efficiency and reliability.
+       Technologies utilized included Java 8, Spring Boot, Jenkins, Maven, SonarQube, PL/SQL, REST APIs, and Swagger. The project followed a Waterfall methodology, with a structured approach to planning and execution.
+       </p>
     ),
   },
   {

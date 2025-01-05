@@ -8,7 +8,6 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -327,7 +326,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Hi there! 👋 Looking to collaborate, brainstorm ideas, or just say hi? I`d love to hear from you! Feel free and drop me a message through the contact form. Lets create something amazing together! 🚀',
   items: [
     {
       type: ContactType.Email,
@@ -338,11 +337,6 @@ export const contact: ContactSection = {
       type: ContactType.Location,
       text: 'Vancouver BC, Canada',
       href: 'https://www.google.ca/maps/place/Vancouver,+Columbia+Brit%C3%A1nica/@49.2578182,-123.2063047,12z/data=!3m1!4b1!4m6!3m5!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375!16zL20vMDgwaDI?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@aisidroh',
-      href: 'https://www.instagram.com/aisidroh/',
     },
     {
       type: ContactType.Github,
@@ -358,5 +352,4 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/aisidr12'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arturoisidroh/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/aisidroh/'},
 ];

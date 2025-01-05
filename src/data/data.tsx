@@ -26,6 +26,7 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
+  TimeLineItemEducation,
 } from './dataDef';
 
 /**
@@ -213,22 +214,22 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section -- Education
  */
-export const education: TimelineItem[] = [
+export const education: TimeLineItemEducation[] = [
   {
+    date: 'June 2016',
+    location: 'Zaragoza',
+    title: 'Computer Engineering',
+    nameSchool: 'University of Zaragoza'
+   },
+   {
     date: 'June 2018',
     location: 'Zaragoza',
-    title: 'Cefor Izquierdo',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-];
+    title: 'Multiplatform Applications Development',
+    nameSchool: 'Cefor Izquierdo College'
+    },
+  ];
 
 export const experience: TimelineItem[] = [
   {

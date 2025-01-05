@@ -94,6 +94,13 @@ export interface TimelineItem {
   content: JSX.Element;
 }
 
+export interface TimeLineItemEducation {
+  date: string;
+  location: string;
+  title: string;
+  nameSchool: string;
+}
+
 /**
  * Testimonial section
  */

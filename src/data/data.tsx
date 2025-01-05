@@ -232,24 +232,71 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2022 - October 2024',
+    location: 'Madrid - Spain',
+    title: 'Cloud Native Software Engineer',
+    nameCompany: 'Accenture Spain',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Engaged in the development of new features for our banking client, adhering to clean code principles and other best practices. 
+        As a developer, I participated in architectural design, enhancing the latency of our microservices and optimizing interactions with other microservices.
+        Technologies utilized included Java 11, Java 17, and Java 21, Maven, Git, OpenAPI, Swagger, Bamboo, SonarQube, Mockito, JUnit, Docker, and Kubernetes.
+        Additionally, we leveraged AWS services such as DynamoDB, AWS CloudWatch, S3, SNS, and Aurora DB. Our deployment tools included Bamboo and Harness.
+        Since this is a banking project, we adhered to strict security standards and best practices.
+        This project followed the Agile methodology.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'January 2022 - June 2022',
+    location: 'Madrid - Spain',
+    title: 'Java Software Engineer',
+    nameCompany: 'Bilbomatica Spain',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Project base on Public Administration. We mainly maintance the project and bug fixing for the client.
+        We developed some new features for the client and some improvements in the project like refactoring some integrations with third party services.
+        Technologies used: Java 8, Spring boot, Jenkins, Maven, Sonarqube, PL/SQL, RestApi, Swagger.
+        This project was base on Waterfall methodology.
+      </p>
+    ),
+  },
+  {
+    date: 'August 2012 - January 2022',
+    location: 'Zaragoza - Spain',
+    title: 'FullStack Engineer',
+    nameCompany: 'Hiberus Technology',
+    content: (
+      <p>
+        Maintance of projects and bug fixing. Migration of projects from Monolithics to Microservices architecture. 
+        Our team could migrate a project from Monolithic to Microservices in 3 months with a team of 5 people. This project was
+        part of Public Administration. This project was base on Agile methodology.
+        Fullstack technologies used: Java 7, Java 8, Spring, Spring boot, Angular, Jenkins, Kafka, Maven, Sonarqube, Docker, Kubernetes and Subversion.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2019 - August 2021',
+    location: 'Madrid - Spain',
+    title: 'Software Java Engineer',
+    nameCompany: 'Deloitte Spain',
+    content: (
+      <p>
+      Developing projects for the banking sector. Developed project from scratch. Application of monolithic architecture.
+      Application base on exchange currency using third party services. This project was base on Agile methodology.
+      Technologies used: Java, Spring, Angular, Jenkins, Kafka, Maven, Sonarqube, Docker, Kubernetes, Swagger, RestAPI.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2018 - April 2019',
+    location: 'Zaragoza - Spain',
+    title: 'Junior Software Engineer',
+    nameCompany: 'Indra Spain',
+    content: (
+      <p>
+        Maintance of projects and bug fixing. Technologies used: JavaEE, Spring. 
+        Worked with technologies like PL1 and Cobol. Most of the time working with IBM Mainframe.
       </p>
     ),
   },

@@ -34,6 +34,7 @@ import {
   Social,
   TestimonialSection,
   TimelineItem,
+  TimelineItemCertification,
   TimeLineItemEducation,
 } from './dataDef';
 
@@ -293,6 +294,27 @@ export const education: TimeLineItemEducation[] = [
     },
   ];
 
+  export const certifications: TimelineItemCertification[] = [
+    {
+      date: 'December 2023',
+      title: 'AWS Cerfied Cloud practitioner',
+      provider: 'Amazon Web Services',
+      dateEnd: 'December 2026'
+    },
+    {
+      date: 'July 2024',
+      title: 'AWS Certified Solutions Architect - Associate',
+      provider: 'Amazon Web Services',
+      dateEnd: 'July 2027'
+    },
+    {
+      date: 'November 2023',
+      title: 'Apache Kafka fundamentals',
+      provider: 'Confluent',
+      dateEnd: 'November 2026'
+    },
+  ];
+  
 export const experience: TimelineItem[] = [
   {
     date: 'June 2022 - October 2024',

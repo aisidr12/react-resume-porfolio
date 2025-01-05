@@ -101,6 +101,13 @@ export interface TimeLineItemEducation {
   nameSchool: string;
 }
 
+export interface TimelineItemCertification {
+  date: string;
+  title: string;
+  provider: string;
+  dateEnd: string;
+}
+
 /**
  * Testimonial section
  */

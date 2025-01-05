@@ -3,7 +3,7 @@ import {FC, memo} from 'react';
 import {TimelineItemCertification} from '../../../data/dataDef';
 
 const TimelineCertifications: FC<{item: TimelineItemCertification}> = memo(({item}) => {
-  const {title, date, provider,dateEnd } = item;
+  const {title, date, provider,dateEnd} = item;
   return (
     <div className="flex flex-col pb-8 text-center last:pb-0 md:text-left">
       <div className="flex flex-col pb-4">

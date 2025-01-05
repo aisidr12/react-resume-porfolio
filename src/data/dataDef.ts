@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {FC, ForwardRefExoticComponent, ReactNode, SVGProps} from 'react';
+import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
@@ -92,26 +92,6 @@ export interface TimelineItem {
   title: string;
   content: JSX.Element;
 }
-/**
- * TimeLineAction Education 
- */
-export interface TimelineItemEducation {
-  date: string;
-  location: string;
-  title: string;
-  nameSchool: string;
-}
-
-/**
- * TimeLineAction Experience
- */
-export interface TimelineItemExperience {
-  date: string;
-  location: string;
-  title: string;
-  nameCompany: string;
-  content: JSX.Element;
-}
 
 /**
  * Testimonial section
@@ -123,7 +103,7 @@ export interface TestimonialSection {
 
 export interface Testimonial {
   image?: string;
-  name: string| ReactNode;
+  name: string;
   text: string;
 }
 

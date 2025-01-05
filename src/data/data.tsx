@@ -8,10 +8,20 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
+import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -24,8 +34,7 @@ import {
   SkillGroup,
   Social,
   TestimonialSection,
-  TimelineItemEducation,
-  TimelineItemExperience,
+  TimelineItem,
 } from './dataDef';
 
 /**
@@ -215,91 +224,44 @@ export const portfolioItems: PortfolioItem[] = [
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
-export const education: TimelineItemEducation[] = [
-  {
-    date: 'June 2016',
-    location: 'Zaragoza',
-    title: 'Computer Engineering',
-    nameSchool: 'University of Zaragoza',
-  },
+export const education: TimelineItem[] = [
   {
     date: 'June 2018',
     location: 'Zaragoza',
-    title: 'Associate degree, Multiplatform Applications Development',
-    nameSchool: 'Cefor Izquierdo',
+    title: 'Cefor Izquierdo',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    date: 'March 2003',
+    location: 'School of Business',
+    title: 'What did you study 101',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
-export const experience: TimelineItemExperience[] = [
+export const experience: TimelineItem[] = [
   {
-    date: 'June 2022 - October 2024',
-    location: 'Madrid - Spain',
-    title: 'Cloud Native Software Engineer',
-    nameCompany: 'Accenture Spain',
+    date: 'March 2010 - Present',
+    location: 'Awesome Development Company',
+    title: 'Senior UX Engineer',
     content: (
       <p>
-        Engaged in the development of new features for our banking client, adhering to clean code principles and other best practices. 
-        As a developer, I participated in architectural design, enhancing the latency of our microservices and optimizing interactions with other microservices.
-        Technologies utilized included Java 11, Java 17, and Java 21, Maven, Git, OpenAPI, Swagger, Bamboo, SonarQube, Mockito, JUnit, Docker, and Kubernetes.
-        Additionally, we leveraged AWS services such as DynamoDB, AWS CloudWatch, S3, SNS, and Aurora DB. Our deployment tools included Bamboo and Harness.
-        Since this is a banking project, we adhered to strict security standards and best practices.
-        This project followed the Agile methodology.
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
       </p>
     ),
   },
   {
-    date: 'January 2022 - June 2022',
-    location: 'Madrid - Spain',
-    title: 'Java Software Engineer',
-    nameCompany: 'Bilbomatica Spain',
+    date: 'March 2007 - February 2010',
+    location: 'Garage Startup Studio',
+    title: 'Junior bug fixer',
     content: (
       <p>
-        Project base on Public Administration. We mainly maintance the project and bug fixing for the client.
-        We developed some new features for the client and some improvements in the project like refactoring some integrations with third party services.
-        Technologies used: Java 8, Spring boot, Jenkins, Maven, Sonarqube, PL/SQL, RestApi, Swagger.
-        This project was base on Waterfall methodology.
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
       </p>
     ),
   },
-  {
-    date: 'August 2012 - January 2022',
-    location: 'Zaragoza - Spain',
-    title: 'FullStack Engineer',
-    nameCompany: 'Hiberus Technology',
-    content: (
-      <p>
-        Maintance of projects and bug fixing. Migration of projects from Monolithics to Microservices architecture. 
-        Our team could migrate a project from Monolithic to Microservices in 3 months with a team of 5 people. This project was
-        part of Public Administration. This project was base on Agile methodology.
-        Fullstack technologies used: Java 7, Java 8, Spring, Spring boot, Angular, Jenkins, Kafka, Maven, Sonarqube, Docker, Kubernetes and Subversion.
-      </p>
-    ),
-  },
-  {
-    date: 'July 2019 - August 2021',
-    location: 'Madrid - Spain',
-    title: 'Software Java Engineer',
-    nameCompany: 'Deloitte Spain',
-    content: (
-      <p>
-        Developing projects for the banking sector. Developed project from scratch. Application of monolithic architecture.
-        Application base on exchange currency using third party services. This project was base on Agile methodology.
-        Technologies used: Java, Spring, Angular, Jenkins, Kafka, Maven, Sonarqube, Docker, Kubernetes, Swagger, RestAPI.
-      </p>
-    ),
-  },
-  {
-    date: 'July 2018 - April 2019',
-    location: 'Zaragoza - Spain',
-    title: 'Junior Software Engineer',
-    nameCompany: 'Indra Spain',
-    content: (
-      <p>
-        Maintance of projects and bug fixing. Technologies used: JavaEE, Spring. 
-        Worked with technologies like PL1 and Cobol. Most of the time working with IBM Mainframe.
-      </p>
-    ),
-  }
 ];
 
 /**
@@ -309,14 +271,20 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: <a href="https://www.linkedin.com/in/ignacio-rodr%C3%ADguez-su%C3%A1rez/" target="_blank" rel="noopener noreferrer">Ignacio Rodriguez</a>,
-      text: 'Arturo is a great team player, always willing to help and learn. He is a great asset to any team.',
-    
+      name: 'John Doe',
+      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: <a href='https://www.linkedin.com/in/franck-chavez-9014344a/' target="_blank"  rel="noopener noreferrer" > Franck Chavez </a>,
-      text: 'Arturo is a very good developer, always willing to learn and improve. He is a great team player and a great asset to any team.',
-    }
+      name: 'Jane Doe',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    },
+    {
+      name: 'Someone else',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    },
   ],
 };
 
@@ -339,6 +307,11 @@ export const contact: ContactSection = {
       href: 'https://www.google.ca/maps/place/Vancouver,+Columbia+Brit%C3%A1nica/@49.2578182,-123.2063047,12z/data=!3m1!4b1!4m6!3m5!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375!16zL20vMDgwaDI?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D',
     },
     {
+      type: ContactType.Instagram,
+      text: '@aisidroh',
+      href: 'https://www.instagram.com/aisidroh/',
+    },
+    {
       type: ContactType.Github,
       text: 'aisidr12',
       href: 'https://github.com/aisidr12',
@@ -351,5 +324,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/aisidr12'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arturoisidroh/'}
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/arturoisidroh/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/aisidroh/'},
 ];

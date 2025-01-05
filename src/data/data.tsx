@@ -78,7 +78,7 @@ export const heroData: Hero = {
 </p>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   Outside of work, I thrive on teamwork and adventure. You’ll often find me training with <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball teams </strong> 
-  or exploring the stunning landscapes of <strong className="text-stone-100">British Columbia</strong>, fueled by curiosity and a love for new challenges.
+  or exploring the stunning landscapes of <strong className="text-stone-100">British Columbia</strong>, fueled by curiosity and a love for new challenges. I am open to relocated so please feel free to contact me.
 </p>
     </>
   ),

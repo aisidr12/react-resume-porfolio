@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
+import {FC, ForwardRefExoticComponent, ReactNode, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
@@ -111,7 +111,7 @@ export interface TestimonialSection {
 
 export interface Testimonial {
   image?: string;
-  name: string;
+  name: string | ReactNode;
   text: string;
 }
 

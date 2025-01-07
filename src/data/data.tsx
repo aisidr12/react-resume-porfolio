@@ -43,7 +43,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Arturo Isidro H.',
-  description: "Porfolio and resume site for Arturo Isidro H. - Full Stack Software Engineer",
+  description: "Portfolio and resume site for Arturo Isidro H. - Full Stack Software Engineer",
 };
 
 /**

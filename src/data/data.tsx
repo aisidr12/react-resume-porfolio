@@ -67,7 +67,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Arturo Isidro.`,
+  name: `I'm Arturo Isidro H.`,
   description: (
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -105,8 +105,8 @@ export const aboutData: About = {
   description: `Adaptable and efficient professional with a proactive mindset and genuine enthusiasm for growth. Recognized for my strong sense of responsibility, initiative, and commitment to continuous improvement, I am a reliable and capable team member. Naturally curious and eager to learn, I thrive on new challenges and opportunities to enhance my skills. 
   As a collaborative team player, I excel in fast-paced environments, always seeking innovative ways to expand my knowledge and contribute to collective success.`,
   aboutItems: [
-    {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
-    {label: 'Nationality', text: 'Spanish / Peruvian', Icon: FlagIcon},
+    {label: 'Location', text: 'Vancouver, British Columbia', Icon: MapIcon},
+    {label: 'Nationality', text: 'Spanish', Icon: FlagIcon},
     {label: 'Interests', text: 'Soccer, Volleyball, Fitness', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Zaragoza, Cefor Izquierdo', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Accenture Iberia Spain.', Icon: BuildingOffice2Icon},

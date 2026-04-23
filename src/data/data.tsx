@@ -71,14 +71,14 @@ export const heroData: Hero = {
   description: (
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  I’m a <strong className="text-stone-100">Vancouver-based Full Stack Software Engineer</strong>, passionate about building scalable and innovative solutions. 
+  I’m a <strong className="text-stone-100">Full Stack Software Engineer</strong>, passionate about building scalable and innovative solutions. 
   With extensive experience as a <strong className="text-stone-100">Cloud-Native Developer</strong> in the Banking sector, 
   I specialize in <strong className="text-stone-100">Backend Development</strong> while maintaining proficiency in <strong className="text-stone-100">Frontend Development</strong>.
   My certifications in AWS and Kafka reflect a commitment to staying at the forefront of technology and delivering excellence in every project.
 </p>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  Outside of work, I thrive on teamwork and adventure. You’ll often find me training with <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball teams </strong> 
-  or exploring the stunning landscapes of <strong className="text-stone-100">British Columbia</strong>, fueled by curiosity and a love for new challenges. I am open to relocated so please feel free to contact me.
+  Outside of work, I thrive on teamwork and adventure. You will often find me training with <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball teams </strong> 
+  or exploring the stunning landscapes of <strong className="text-stone-100">Zaragoza</strong>, fueled by curiosity and a love for new challenges. I am open to relocated so please feel free to contact me.
 </p>
     </>
   ),
@@ -105,7 +105,7 @@ export const aboutData: About = {
   description: `Adaptable and efficient professional with a proactive mindset and genuine enthusiasm for growth. Recognized for my strong sense of responsibility, initiative, and commitment to continuous improvement, I am a reliable and capable team member. Naturally curious and eager to learn, I thrive on new challenges and opportunities to enhance my skills. 
   As a collaborative team player, I excel in fast-paced environments, always seeking innovative ways to expand my knowledge and contribute to collective success.`,
   aboutItems: [
-    {label: 'Location', text: 'Vancouver, British Columbia', Icon: MapIcon},
+    {label: 'Location', text: 'Zaragoza, Spain', Icon: MapIcon},
     {label: 'Nationality', text: 'Spanish', Icon: FlagIcon},
     {label: 'Interests', text: 'Soccer, Volleyball, Fitness', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Zaragoza, Cefor Izquierdo', Icon: AcademicCapIcon},
@@ -175,15 +175,15 @@ export const skills: SkillGroup[] = [
         level: 6,
       },{
         name: 'Spring Security',
-        level: 5
+        level: 7
       },
       {
         name: 'AWS Services',
         level: 7,
       },
       {
-        name:'Docker',
-        level: 5
+        name:'MongoDB',
+        level: 6
       }
     ],
   },
@@ -317,7 +317,7 @@ export const education: TimeLineItemEducation[] = [
   
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2022 - October 2024',
+    date: 'June 2022 - Current',
     location: 'Madrid - Spain',
     title: 'Cloud Native Software Engineer',
     nameCompany: 'Accenture Spain',
@@ -326,6 +326,7 @@ export const experience: TimelineItem[] = [
        Contributed to the development of new features for a banking client, adhering to clean code principles and industry best practices. Played an active role in architectural design, focusing on enhancing microservice latency and optimizing interactions between services. 
        Leveraged a wide range of technologies, including Java (versions 11, 17, and 21), Maven, Git, OpenAPI, Swagger, Mockito, JUnit, Docker, and Kubernetes. Utilized AWS services such as DynamoDB, CloudWatch, S3, SNS, and Aurora DB to ensure scalable and reliable solutions. Deployment processes were streamlined using Bamboo and Harness, while code quality and security were upheld with tools like SonarQube.
        Given the banking domain, adhered to strict security standards and compliance requirements. The project was executed following Agile methodologies, fostering collaboration and iterative development to meet evolving business needs
+      Leverage new technologies and tools to enhance development processes and deliver high-quality solutions with AI tools.
       </p>
     ),
   },

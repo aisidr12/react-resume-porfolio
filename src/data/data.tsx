@@ -78,7 +78,7 @@ export const heroData: Hero = {
 </p>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
   Outside of work, I'm energized by collaboration and adventure. I actively compete in <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball</strong>, 
-  and I love exploring the beautiful landscapes of <strong className="text-stone-100">Zaragoza</strong>. Driven by curiosity and a passion for new challenges, I'm open to relocation opportunities. 
+  and I love exploring the beautiful landscapes of <strong className="text-stone-100">Aragón</strong>. Driven by curiosity and a passion for new challenges, I'm open to relocation opportunities. 
   Feel free to reach out—I'd love to connect!
 </p>
     </>

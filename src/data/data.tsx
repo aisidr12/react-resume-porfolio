@@ -71,14 +71,15 @@ export const heroData: Hero = {
   description: (
     <>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  I’m a <strong className="text-stone-100">Full Stack Software Engineer</strong>, passionate about building scalable and innovative solutions. 
-  With extensive experience as a <strong className="text-stone-100">Cloud-Native Developer</strong> in the Banking sector, 
-  I specialize in <strong className="text-stone-100">Backend Development</strong> while maintaining proficiency in <strong className="text-stone-100">Frontend Development</strong>.
-  My certifications in AWS and Kafka reflect a commitment to staying at the forefront of technology and delivering excellence in every project.
+  I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong> passionate about building scalable and innovative solutions. 
+  With extensive experience as a <strong className="text-stone-100">Cloud-Native Developer</strong> in the banking sector, 
+  I specialize in <strong className="text-stone-100">Backend Development</strong> while maintaining strong proficiency in <strong className="text-stone-100">Frontend Development</strong>.
+  My AWS and Kafka certifications demonstrate my commitment to mastering cutting-edge technologies and delivering excellence in every project.
 </p>
 <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-  Outside of work, I thrive on teamwork and adventure. You will often find me training with <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball teams </strong> 
-  or exploring the stunning landscapes of <strong className="text-stone-100">Zaragoza</strong>, fueled by curiosity and a love for new challenges. I am open to relocated so please feel free to contact me.
+  Outside of work, I'm energized by collaboration and adventure. I actively compete in <strong className="text-stone-100">soccer</strong> and <strong className="text-stone-100">volleyball</strong>, 
+  and I love exploring the beautiful landscapes of <strong className="text-stone-100">Zaragoza</strong>. Driven by curiosity and a passion for new challenges, I'm open to relocation opportunities. 
+  Feel free to reach out—I'd love to connect!
 </p>
     </>
   ),
